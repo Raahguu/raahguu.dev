@@ -1,6 +1,6 @@
 baseURL = 'https://raahguu.dev/'
 languageCode = 'en-us'
-title = "Raahguu\'s Writeups"
+title = 'Raahguu'
 theme = 'custom-noir'
 
 # URL handling
