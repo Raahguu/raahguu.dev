@@ -1,4 +1,39 @@
 baseURL = 'https://raahguu.dev/'
 languageCode = 'en-us'
-title = 'Raahguu'
+title = "Raahguu\'s Writeups"
 theme = 'custom-noir'
+
+# URL handling
+relativeURLs = true
+canonifyURLs = true
+
+
+[params]
+# Baisc profile info
+name = "Joshua Finlayson"
+profile_image = ""
+discord = "Raahguu"
+github = "https://github.com/Raahguu"
+github_username = "Raahguu"
+email = "jshfinlayson@gmail.com"
+linkedin = "https://www.linkedin.com/in/joshua-finlayson-a3ab42221/"
+linkedin_username = "Joshua Finlayson"
+
+
+[menu]
+    [[menu.main]]
+        name = "About"
+        pageRef = "/about"
+        weight = 1
+    [[menu.main]]
+        name = "Writeups"
+        pageRef = "/writeups"
+        weight = 2
+    [[menu.main]]
+        name = "Experience"
+        pageRef = "/experience"
+        weight = 3
+    [[menu.main]]
+        name = "Contact Me"
+        pageRef = "/contact"
+        weight = 4
