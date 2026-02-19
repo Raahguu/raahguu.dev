@@ -4,3 +4,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/custom-noir"]
+	path = themes/custom-noir
+	url = https://github.com/Raahguu/raahguu-dev-hugo-theme
