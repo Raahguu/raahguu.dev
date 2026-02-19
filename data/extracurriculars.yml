@@ -1,0 +1,21 @@
+extracurriculars:
+  - link: "https://redroomctf.au"
+    club: "RedRoom"
+    role: "Master of CTFs"
+    period: "Oct 2025 - Now"
+    country: "ECU"
+    description: "This role involves managing and organising workshops and events to up-skill the technical cyber security skills of Red Room members, this involves running CTFs, both getting people to present workshops and presenting them myself, along with getting Red Room to participate in many different CTFs hosted by others both in person and online"
+
+  - link: "https://cassa.au"
+    club: "CASSA"
+    role: "System Administrator"
+    period: "Aug 2025 - Now"
+    country: "ECU"
+    description: "I have worked under two Tech Administrator Executives, and was assigned to do numerous tasks to create/maintain systems. This occurred both on the hardware and software side in order to aid with the servers and other events CASSA leads"
+
+  - link: "https://pecanplus.org/"
+    club: "PecanPlus"
+    role: "Volunteer & Challenge Creator"
+    period: "Aug 2025"
+    country: "ECU"
+    description: "I helped design challenges for the 2025 instance of PecanPlus which is a nationwide CTF for highschoolers, and then also volunteered to help physically run the Perth branch of the event."

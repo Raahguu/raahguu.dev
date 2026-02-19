@@ -1,0 +1,33 @@
+education:
+  - link: "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-cyber-security"
+    organisation: "ECU"
+    name: "Y89 - Bachelor of Science (Cyber Security)"
+    period: "2025 - Now"
+    description: "A Bachelors Degree in Cyber Security studied at Edith Cowan Univeristy Joondalup Campus"
+  
+  - link: "https://prendiville.wa.edu.au/"
+    organisation: "Prendiville Catholic College"
+    name: "High School Diploma"
+    period: "2019 - 2024"
+    description: "I graduated from Prendiville Catholic College with an ATAR of 98.95 (for non-australians that is a percentile placing me in the top 1.05% of graduates) studying Computer Science, Math Methods, Math Specialist, and Physics"
+
+  - link: "https://www.credly.com/badges/0d08535f-f527-451c-acfd-87f3e60a22c2/portfolio_website"
+    organisation: "Cisco"
+    name: "Introduction to Modern AI"
+    period: "Feb 2026"
+
+  - link: "https://www.credly.com/badges/837f0ccf-43e4-461a-b34f-09952d5b5237/portfolio_website"
+    organisation: "Cisco"
+    name: "Networking Basics"
+    period: "Feb 2026"
+
+  - link: "https://www.credly.com/badges/c5e33943-8f7c-49f5-b398-3b34e6ba060b/portfolio_website"
+    organisation: "Cisco"
+    name: "Python Essenstials 2"
+    period: "Sep 2025"
+
+  - link: "https://www.credly.com/badges/c94e482d-7992-4066-8ddb-7a5156aa27eb/portfolio_website"
+    organisation: "Cisco"
+    name: "Python Essenstials 1"
+    period: "Jun 2025"
+  

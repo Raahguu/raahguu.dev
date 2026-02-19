@@ -8,18 +8,6 @@ relativeURLs = true
 canonifyURLs = true
 
 
-[params]
-# Baisc profile info
-name = "Joshua Finlayson"
-profile_image = ""
-discord = "Raahguu"
-github = "https://github.com/Raahguu"
-github_username = "Raahguu"
-email = "jshfinlayson@gmail.com"
-linkedin = "https://www.linkedin.com/in/joshua-finlayson-a3ab42221/"
-linkedin_username = "Joshua Finlayson"
-
-
 [menu]
     [[menu.main]]
         name = "About"
