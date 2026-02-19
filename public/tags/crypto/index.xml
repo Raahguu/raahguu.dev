@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crypto on Raahguu</title>
+    <link>http://localhost:1313/tags/crypto/</link>
+    <description>Recent content in Crypto on Raahguu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hues</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/hues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/hues/</guid>
+      <description>My challenges Hues&#xA;solution Yes&#xA;Maybe Well:&#xA;No Maybe Yes Actually:&#xA;One Two Three a = print(&amp;#34;Seventeen&amp;#34;) Maybe&#xA;$ cat env.txt I said no flag123&#xA;jwt.io</description>
+    </item>
+  </channel>
+</rss>

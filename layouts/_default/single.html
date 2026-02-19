@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="w-3/4 mx-auto py-12">
+    <div class="max-w-3xl mx-auto p-8 border border-border-primary-dark rounded-2xl bg-neutral-800">
+        <h1 class="text-4xl font-bold mb-4 text-text-primary-dark">{{ .Title }}</h1>
+        {{ if eq .Section "writeups" }}
+            {{ partial "breadcrumb" .}}
+            {{ if .Params.tags }}
+            <div class="flex items-center gap-4 mb-8 text-text-secondary-dark">
+                <div class="flex gap-2">
+                    Tags: 
+                    {{ with .Params.tags }}
+                        {{ range $i, $e := .}}
+                            {{ if $i }}- {{ end }}
+                    <span class="bg-bg-tertiary-dark rounded-md font-medium text-text-secondary-dark">{{ $e }}</span>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        {{ end }}
+        
+        <div class="prose prose-invert max-w-none">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }} 
