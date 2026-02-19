@@ -1,0 +1,3 @@
+[submodule "themes/custom-hugo-noir"]
+	path = themes/custom-hugo-noir
+	url = https://github.com/Raahguu/raahguu-dev-hugo-theme
