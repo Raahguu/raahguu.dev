@@ -1,12 +1,12 @@
 {{ define "main" }}
-<div class="w-3/4 mx-auto py-12">
-    <div class="max-w-3xl mx-auto p-8 border border-border-primary-dark rounded-2xl bg-neutral-800">
-        <h1 class="text-4xl font-bold mb-4 text-text-primary-dark">{{ .Title }}</h1>
+<div class="w-4/5 mx-auto py-12">
+    <div class="max-w-4xl mx-auto p-8 border border-border-primary-dark rounded-2xl bg-neutral-800">
+        <h1 class="text-5xl font-bold mb-4 text-text-primary-dark text-green-500">{{ .Title }}</h1>
         {{ if eq .Section "writeups" }}
             {{ partial "breadcrumb" .}}
             {{ if .Params.tags }}
             <div class="flex items-center gap-4 mb-8 text-text-secondary-dark">
-                <div class="flex gap-2">
+                <div class="flex gap-2 text-lg">
                     Tags: 
                     {{ with .Params.tags }}
                         {{ range $i, $e := .}}
@@ -19,9 +19,10 @@
             {{ end }}
         {{ end }}
         
-        <div class="prose prose-invert max-w-none">
+        <article class="max-w-none" id="markdown">
             {{ .Content }}
-        </div>
+        </article>
     </div>
 </div>
+{{ partial "markdown_stylise" . }}
 {{ end }} 
