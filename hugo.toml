@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Raahguu'
 
 # URL handling
-relativeURLs = true
 canonifyURLs = true
 
 
@@ -12,7 +11,19 @@ canonifyURLs = true
         name = "Writeups"
         URL = "/writeups"
         weight = 1
-    [[menu.main]]
-        name = "Contact Me"
-        URL = "/contact"
-        weight = 2
+
+[module]
+    [[module.mounts]]
+        disableWatch = false
+        source = "assets"
+        target = "assets"
+        [module.mounts.sites]
+            [module.mounts.site.complements]
+            [module.mounts.site.matrix]
+
+
+[markup.goldmark.renderHooks.image]
+enableDefault = true
+
+[markup.goldmark.renderHooks.link]
+enableDefault = true

@@ -6,14 +6,27 @@
     <description>Recent content in Rev on Raahguu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Feb 2026 00:30:00 +0830</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/rev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Writeup</title>
-      <link>http://localhost:1313/writeups/yes/</link>
-      <pubDate>Thu, 19 Feb 2026 00:30:00 +0830</pubDate>
-      <guid>http://localhost:1313/writeups/yes/</guid>
-      <description>Description Some content to display&#xA;Solution The solution to the challenge</description>
+      <title>Root Detection is the least of our problems but let&#39;s have it anyway</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/root-detection-is-the-least-of-our-problems-but-lets-have-it-anyway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/root-detection-is-the-least-of-our-problems-but-lets-have-it-anyway/</guid>
+      <description>As this challenge was the only one about reverse enginering the binary, I put the action of finding the domain that all the other challenges use within this writeup as well&#xA;Description In an attempt to implement security best practices, the mobile developers has implemented a root detection mechanism. Can you identify all the binaries that they check for? The flag may or may not be in that list :)</description>
+    </item>
+    <item>
+      <title>The Soldier of God, Rick</title>
+      <link>http://localhost:1313/writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/</guid>
+      <description>Description Can you defeat the Soldier of God, Rick? - dimas&#xA;This challenge gave a compiled go binary which was an HTTP server to play a small webgame.&#xA;Disclaimer This writeup did not use Generative AI to write or to aid in the writing of it, and the solution to this CTF challenge was not found using or aided by the use of Generative AI&#xA;Solution The challenge linked multiple tools that would help with the solving of this challenge, the tools it linked were:</description>
+    </item>
+    <item>
+      <title>Xanarto</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/xanarto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/xanarto/</guid>
+      <description>Description I found this guy on LinkedIn who claimed to have created an uncrackable algorithm. Prove him wrong. I have attached the post in an image.&#xA;Writeup The challange gives you a photo of a LinkedIn post, and you need to find the post first off. By searching up site:linkedin.com Xanarto, the posters account comes up on linkedin.&#xA;looking at their linkedin, they link their github:&#xA;Github: https://github.com/Xanarto Going to all posts gets you the encrypted message:</description>
     </item>
   </channel>
 </rss>

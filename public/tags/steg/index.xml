@@ -8,11 +8,39 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/steg/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hues</title>
-      <link>http://localhost:1313/writeups/2025/pecanplus/hues/</link>
+      <title>Beneath the Surface</title>
+      <link>http://localhost:1313/writeups/2025/l3akctf/beneath-the-surface/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/writeups/2025/pecanplus/hues/</guid>
-      <description>My challenges Hues&#xA;solution Yes&#xA;Maybe Well:&#xA;No Maybe Yes Actually:&#xA;One Two Three a = print(&amp;#34;Seventeen&amp;#34;) Maybe&#xA;$ cat env.txt I said no flag123&#xA;jwt.io</description>
+      <guid>http://localhost:1313/writeups/2025/l3akctf/beneath-the-surface/</guid>
+      <description>Description On the surface, this signal is nothing but meaningless noise — a mere whisper of the wind. But dive deeper into this transmission, and a storm begins to take shape, with gray skies gathering on the horizon. Can you navigate through the static and uncover what lurks beneath the surface of the wav — before it’s too late?&#xA;Author: Suvoni&#xA;The challenge then gave a .wav file that was 6.</description>
+    </item>
+    <item>
+      <title>Looking through the Sound</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/looking-through-the-sound/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/looking-through-the-sound/</guid>
+      <description>Description Not every message rides the waves of sound. You&amp;rsquo;ll have to look through the noise. Let your eyes do the listening, and let the music spell it out for you. Note: You do not need to listen to the audio to do this challenge.&#xA;Writeup As always, when you download a stenography file, try checking the exif/meta data. For this I used exiftool. You can do this using a command like:</description>
+    </item>
+    <item>
+      <title>Sound Inversion</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/sound-inversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/sound-inversion/</guid>
+      <description>Description Soldier, we believe that the enemy has hidden a spoken audio message somewhere in this file. Find it, and report back immediately.&#xA;The challange also provides an mp3 file.&#xA;Solution As always, when you download a stegonography file, try checking the exif/meta data. For this I used exiftool. You can do this using a command like:&#xA;Once you run this you get an output along the lines of:&#xA;This reveals not much, except the comment which says Is it just me or is the right channel different?</description>
+    </item>
+    <item>
+      <title>Strange Transmission</title>
+      <link>http://localhost:1313/writeups/2025/l3akctf/strange-transmission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/l3akctf/strange-transmission/</guid>
+      <description>Description I received this strange transmission and I&amp;rsquo;m not sure what to make of it! Weird beeps, static noise, then silence. Can you help me figure out what it all means?&#xA;Author: Suvoni&#xA;The challenge then also provided a .wav file.&#xA;Solution Listening to the file reveals a bunch of beeps, that sounds like morse code. I at first listened to the more code and noted it down myself, I only wrote part of it, here is what I got</description>
+    </item>
+    <item>
+      <title>TLSB</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/tlsb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/tlsb/</guid>
+      <description>Description You might have heard of Least Significant Bit (LSB) Steganography, but have you ever heard of Third Least Significant Bit (TLSB) Steganography? (Hopefully not considering I made it up for this challenge).&#xA;Writeup The description tells you that the steganography method to hide the flag is &amp;lsquo;Third Least Significant Bit Encryption&amp;rsquo;, which with how it also mentions LSB likely means that it is just a variation on LSB encryption.</description>
     </item>
   </channel>
 </rss>

@@ -8,11 +8,158 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/webx/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hues</title>
-      <link>http://localhost:1313/writeups/2025/pecanplus/hues/</link>
+      <title>About That HTML</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/about-that-html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/writeups/2025/pecanplus/hues/</guid>
-      <description>My challenges Hues&#xA;solution Yes&#xA;Maybe Well:&#xA;No Maybe Yes Actually:&#xA;One Two Three a = print(&amp;#34;Seventeen&amp;#34;) Maybe&#xA;$ cat env.txt I said no flag123&#xA;jwt.io</description>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/about-that-html/</guid>
+      <description>Description A certain politician has been talking a lot about transparency lately but we all know that&amp;rsquo;s just for the cameras. What&amp;rsquo;s really going on behind the scenes? I wonder if there&amp;rsquo;s some source of truth in their campaign page&amp;hellip; https://alliance.freedonia.vote/&#xA;Solution This a very basic challenge, in order to solve all you need to do is go to the source code of the website and there as a comment is the code</description>
+    </item>
+    <item>
+      <title>Cookie Monster Secret Recipe</title>
+      <link>http://localhost:1313/writeups/2025/picoctf/cookie-monster-secret-recipe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/picoctf/cookie-monster-secret-recipe/</guid>
+      <description>Description Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster here and good luck&#xA;Solution The title of Cookie Monster and the number of times it says cookie in this description is a pretty big giveaway that the challenge is likely something to do with cookies.</description>
+    </item>
+    <item>
+      <title>corp-mail</title>
+      <link>http://localhost:1313/writeups/2026/c2c-qualifiers/corp-mail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2026/c2c-qualifiers/corp-mail/</guid>
+      <description>Description Rumor said that my office&amp;rsquo;s internal email system was breached somewhere&amp;hellip; must&amp;rsquo;ve been the wind - lordrukie x beluga&#xA;This challenge provided the backend code for it which was a flask app&#xA;Disclaimer This writeup did not use Generative AI to write or to aid in the writing of it, and the solution to this CTF challenge was not found using or aided by the use of Generative AI</description>
+    </item>
+    <item>
+      <title>Dark Detour</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/dark-detour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/dark-detour/</guid>
+      <description>Description Everyone wants to be in the room where it happens! You can always wait for the invite, or just go in blind!&#xA;http://redac.ted:3000/&#xA;Solution This page is a small static page that links to a login page. We got nothing except this login page, and there is no robots.txt or sitemap.xml, so the only thing to do is to do some injection into the login field.&#xA;Now we don&amp;rsquo;t know any usernames, so we need to inject within the username field.</description>
+    </item>
+    <item>
+      <title>Early Voting App v1</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/early-voting-app-v1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/early-voting-app-v1/</guid>
+      <description>Description Hey everyone! We&amp;rsquo;re Beta testing this new web application we&amp;rsquo;re going to deploy to our voters to potentially replace our mail in voting system.&#xA;Ok fine, maybe its more in the alpha stage, but we&amp;rsquo;re quite excited about this one! Feel free to give it a go with the example user.&#xA;We&amp;rsquo;ve implemented some logic for when a candidate wins by getting all the votes, but&amp;hellip; that shouldn&amp;rsquo;t be possible with only one user anyways.</description>
+    </item>
+    <item>
+      <title>head-dump</title>
+      <link>http://localhost:1313/writeups/2025/picoctf/head-dump/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/picoctf/head-dump/</guid>
+      <description>Description Welcome to the challenge! In this challenge, you will explore a web application and find an endpoint that exposes a file containing a hidden flag. The application is a simple blog website where you can read articles about various topics, including an article about API Documentation. Your goal is to explore the application and find the endpoint that generates files holding the server’s memory, where a secret flag is hidden.</description>
+    </item>
+    <item>
+      <title>I can be anyone!</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/i-can-be-anyone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/i-can-be-anyone/</guid>
+      <description>Description Among the various issues that occured during the voting process, generating a vote code wasn&amp;rsquo;t possible as the system would say &amp;ldquo;Citizen &amp;lt;&amp;gt; has already voted&amp;rdquo;. It seems like someone is taking everyone elses votes! Can you find out how an attacker may have done this and submit a vote for the citizen ID CIT100 who hasn&amp;rsquo;t voted yet?&#xA;The code for the backend of all week 4 challenges was the same, so we also had that.</description>
+    </item>
+    <item>
+      <title>Induction Therapy</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/induction-therapy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/induction-therapy/</guid>
+      <description>Description The citizens of Freedonia are preparing for an upcoming national vote - but before they can make their voices heard, they’ll need to get informed. This challenge drops participants into a voter education web portal where all candidates, policies, and debates are presented for review. Only time will tell who&amp;rsquo;ll you vote for soon&amp;hellip;&#xA;http://redac.ted:9001/&#xA;We were also then given the source code&#xA;Solution Here is the app.py for this challenge:</description>
+    </item>
+    <item>
+      <title>Looking for Secrets</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/looking-for-secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/looking-for-secrets/</guid>
+      <description>Description We&amp;rsquo;re here to spread great information about our candidates yet someone manages to get access to our configuration page every time. How are they doing this?!&#xA;It makes no sense, we&amp;rsquo;ve checked for everything that can be bad&amp;hellip; right? Find out how, tell me and I&amp;rsquo;ll reward you with a secret.&#xA;http://redac.ted:8080/&#xA;Solution This website is another simple static website with one thing that stands out at first. The URL of the home page is http://redac.</description>
+    </item>
+    <item>
+      <title>Master of Time and Space</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/master-of-time-and-space/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/master-of-time-and-space/</guid>
+      <description>Description While the government has provided the source code to the world, the mobile app won&amp;rsquo;t run properly because of geolocation and time restrictions! Can you identify the time and coordinates required for spoofing? Don&amp;rsquo;t forget to submit it to the relevant APIs to double check it&amp;rsquo;s correct (and get the flag).&#xA;This challenge also gave a png file, that you just need the visible text on.&#xA;The backend code for all of week 4 was the same, so we had that aswell.</description>
+    </item>
+    <item>
+      <title>Philtered</title>
+      <link>http://localhost:1313/writeups/2025/downunder/philtered/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/downunder/philtered/</guid>
+      <description>Description Dear Raahguu,&#xA;Can you phigure this one out?&#xA;Regards, sidd.sh&#xA;And then you also got the backend code for the website&#xA;Solution The Descrption didn&amp;rsquo;t give us much to go off, so we started off by looking through the source code. The only important part you need to know is the index.php file&#xA;&amp;lt;?php class Config { public $path = &amp;#39;information.txt&amp;#39;; public $data_folder = &amp;#39;data/&amp;#39;; } class FileLoader { public $config; // idk if we would need to load files from other directories or nested directories, but better to keep it flexible if I change my mind later public $allow_unsafe = false; // These terms will be philtered out to prevent unsafe file access public $blacklist = [&amp;#39;php&amp;#39;, &amp;#39;filter&amp;#39;, &amp;#39;flag&amp;#39;, &amp;#39;.</description>
+    </item>
+    <item>
+      <title>Request Header Manipulation</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/request-header-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/request-header-manipulation/</guid>
+      <description>Description I found a website with some crazy privacy rules about who can join.&#xA;And a link was given&#xA;Solution The link leads to a website looking like this With a name like Request Header Manipulation, in a http/s site, it is likely that what the browser, is refering to are the request headers sent in all get requests.&#xA;So, you go to Burp and open up the website in the proxy, before moving that into the Repeater.</description>
+    </item>
+    <item>
+      <title>secure email attachments</title>
+      <link>http://localhost:1313/writeups/2025/downunder/secure-email-attachments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/downunder/secure-email-attachments/</guid>
+      <description>Description Dear Raahguu,&#xA;During the email apocalypse, IT admins tried to prevent the DOS of all systems by disallowing attachments to emails. To get around this, users would create their own file storage web servers for hosting their attachments, which also got DOSed because everyone was mass spamming the links in emails&amp;hellip;&#xA;Can you read /etc/flag.txt from the filesystem?&#xA;Regards, MC Fat Monke&#xA;The challenge then also provided the source code for the email attachments file system</description>
+    </item>
+    <item>
+      <title>SSTI1</title>
+      <link>http://localhost:1313/writeups/2025/picoctf/ssti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/picoctf/ssti/</guid>
+      <description>Description I made a cool website where you can announce whatever you want! Try it out! I heard templating is a cool and modular way to build web apps! Check out my website here!&#xA;The challenge is then a website, where there is a text box that you can type into, anything that you submit in the form with the text box is then shown on a new page.&#xA;Solution First glance The challenge is called SSTI, which seems like a hint, but at first, lets just try some XSS.</description>
+    </item>
+    <item>
+      <title>Streamlined Democracy</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/streamlined-democracy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/streamlined-democracy/</guid>
+      <description>Description Before you begin your voting, review our online guide and reach out if you have any questions. Your input is very important to us!&#xA;We were then given a link&#xA;Solution We were given a pretty basic site, just some text with one button labled Français&#xA;Clicking this button directs us from redac.ted:8001/ to redac.ted:8001/?lang=fr.php&#xA;As this is the only non static functionality of the site, this is likely where the exploit is.</description>
+    </item>
+    <item>
+      <title>Template Token</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/template-token/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/template-token/</guid>
+      <description>Description The citizens are voting, but it’s not the votes that matter - it’s the system that counts them.&#xA;Cast your vote, inspect the results… but is that all there is?&#xA;Your mission? Break into the admin panel and uncover the flag.&#xA;http://redac.ted:5000/&#xA;This challenge also provided the app.py file&#xA;Solution Here is the app.py file:&#xA;import jwt import datetime import os import re from flask import Flask, render_template, render_template_string, request, jsonify from functools import wraps from dotenv import load_dotenv from utils import db load_dotenv() app = Flask(__name__) # secret key for our JWT signing!</description>
+    </item>
+    <item>
+      <title>The Soldier of God, Rick</title>
+      <link>http://localhost:1313/writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/</guid>
+      <description>Description Can you defeat the Soldier of God, Rick? - dimas&#xA;This challenge gave a compiled go binary which was an HTTP server to play a small webgame.&#xA;Disclaimer This writeup did not use Generative AI to write or to aid in the writing of it, and the solution to this CTF challenge was not found using or aided by the use of Generative AI&#xA;Solution The challenge linked multiple tools that would help with the solving of this challenge, the tools it linked were:</description>
+    </item>
+    <item>
+      <title>The voting logs ain&#39;t making sense</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/the-voting-logs-aint-making-sense/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/the-voting-logs-aint-making-sense/</guid>
+      <description>Description A paranormal event was observed during the voting. Apparently multiple successful vote submissions were starting to be observed in the logs for an individual and votes for citizens that don&amp;rsquo;t exist? Can you find out how an attacker may have done this and submit a vote for the citizen ID CIT1337 who has already voted?&#xA;The code for the backend of all week 4 challenges was the same, so we also had that.</description>
+    </item>
+    <item>
+      <title>Tony&#39;s Toolyard</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/tony-s-toolyard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/tony-s-toolyard/</guid>
+      <description>Description Tony had decided to open his website up to bug bounties for the first time. So it will likely have extremely common vulnerabilities.&#xA;There is also a link&#xA;Writeup The link leeds to a website that appears to be a toolyard online shop.&#xA;searching in this field shows up a table of results:&#xA;This is likely done through either an SQL databse, or storing the data in a json/csv file.</description>
+    </item>
+    <item>
+      <title>Trusted Clerk</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/trusted-clerk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/trusted-clerk/</guid>
+      <description>Description The national elections in Freedonia have officially begun. In the spirit of transparency and continuous improvement, the Ministry of Electoral Integrity has launched a new early voting portal. Citizens are encouraged not only to cast their vote - but also to leave anonymous feedback about their voting experience.&#xA;“Your voice matters twice - once for your candidate, and once for your country.”&#xA;http://redac.ted:9002/&#xA;Solution The link takes you to a pretty small website with a Home page, About page, Contact page, and a Vote page.</description>
+    </item>
+    <item>
+      <title>Verification or Execution</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/verification-or-execution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/verification-or-execution/</guid>
+      <description>Description Look, this is supposed to be a simple checker for an ID to make sure its actually part of the early voting system, yet someone gained access to my system?! There&amp;rsquo;s only one field and I&amp;rsquo;m sure my regex is perfect!&#xA;http://redac.ted:8002/&#xA;Solution this link leads to a page with just a single input that asks for your &amp;rsquo;early voter ID&#39;&#xA;$ curl &amp;#34;http://re.da.ct.ed:8002/&amp;#34; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Early Voter Verification&amp;lt;/title&amp;gt; &amp;lt;link href=&amp;#34;https://cdn.</description>
+    </item>
+    <item>
+      <title>Who checks the integrity of the integrity checks?</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/who-checks-the-integrity-of-the-integrity-checks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/who-checks-the-integrity-of-the-integrity-checks/</guid>
+      <description>Description The government has ordered verification of the votes via the printed receipts. The results were&amp;hellip; a mismatch in votes! While there were probably multiple ways that this came as a result, is it possible for someone to tamper with the receipts?&#xA;As the backend code for all of week 4 was the same, we also had the backend code of the printer&#xA;Solution Here is the backend code of the printers:</description>
     </item>
   </channel>
 </rss>

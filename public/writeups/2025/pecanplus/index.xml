@@ -8,11 +8,74 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/writeups/2025/pecanplus/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hues</title>
-      <link>http://localhost:1313/writeups/2025/pecanplus/hues/</link>
+      <title>Echo Chamber</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/echo-chamber/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/writeups/2025/pecanplus/hues/</guid>
-      <description>My challenges Hues&#xA;solution Yes&#xA;Maybe Well:&#xA;No Maybe Yes Actually:&#xA;One Two Three a = print(&amp;#34;Seventeen&amp;#34;) Maybe&#xA;$ cat env.txt I said no flag123&#xA;jwt.io</description>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/echo-chamber/</guid>
+      <description>Description I found this weird service that just replies back with whatever you send it, its like a weird mirror or reflection or something.&#xA;Writeup Connecting to the challenge through nc, gets you:&#xA;This is a screen, where you can type whatever text you want, and then a copy of that text is replied.&#xA;Now lets open up the binary in ghidra. There is a single function, in C this is:</description>
+    </item>
+    <item>
+      <title>Incorrect Implimentation of RSA</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/incorrect-implementation-of-rsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/incorrect-implementation-of-rsa/</guid>
+      <description>Description I just learnt about Rivest-Shamir-Aldeman, and so I created my own custom implementation. Here&amp;rsquo;s the message:&#xA;n: 16537241065399537261146800802060451995107796665337288928060948677362154976656429797729550619497788311160926523026781503470362013597201944839389519773564618679827061417896265475971561610333659217333638238386907603525565178455941971399130722191602944445714002268747028340120907894781607422707823554701443768586256913491149809410232167277063066105859165079765281480076330718726350243973636606134346374770537701812923215229226027759112780757449828410180237267791126609342382918352166823253106960191346933601235547281 e: 5 ciphertext: [17623416832, 10510100501, 9509900499, 8587340257, 16105100000, 28153056843, 16850581551, 12166529024, 7737809375, 12762815625, 7737809375, 19254145824, 10510100501, 8587340257, 14693280768, 14693280768, 25937424601, 7737809375, 21003416576, 12166529024, 16850581551, 21924480357, 11592740743, 12166529024, 21003416576, 7737809375, 12762815625, 7737809375, 12166529024, 8587340257, 10000000000, 7737809375, 21003416576, 12166529024, 8587340257, 21003416576, 7737809375, 10000000000, 16850581551, 16105100000, 10510100501, 7737809375, 9509900499, 254803968, 19254145824, 19254145824, 345025251, 9509900499, 21003416576, 14693280768, 25937424601, 7737809375, 282475249, 282475249, 459165024, 312500000, 601692057, 30517578125] Solution RSA encryption works by calculating the equation encrypedMessage = message^(e) (mod N)</description>
+    </item>
+    <item>
+      <title>Looking through the Sound</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/looking-through-the-sound/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/looking-through-the-sound/</guid>
+      <description>Description Not every message rides the waves of sound. You&amp;rsquo;ll have to look through the noise. Let your eyes do the listening, and let the music spell it out for you. Note: You do not need to listen to the audio to do this challenge.&#xA;Writeup As always, when you download a stenography file, try checking the exif/meta data. For this I used exiftool. You can do this using a command like:</description>
+    </item>
+    <item>
+      <title>Request Header Manipulation</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/request-header-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/request-header-manipulation/</guid>
+      <description>Description I found a website with some crazy privacy rules about who can join.&#xA;And a link was given&#xA;Solution The link leads to a website looking like this With a name like Request Header Manipulation, in a http/s site, it is likely that what the browser, is refering to are the request headers sent in all get requests.&#xA;So, you go to Burp and open up the website in the proxy, before moving that into the Repeater.</description>
+    </item>
+    <item>
+      <title>Sheet Music Cipher</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/sheet-music-cipher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/sheet-music-cipher/</guid>
+      <description>Description No one will ever know that I used a Compound Motivic Musical Cipher. I can merely play music out loud and send messages without anyone being any the wiser.&#xA;Solution As always, when you download a .png file, try checking the exif/meta data. For this I used exiftool. You can do this using a command like:&#xA;exiftool SheetMusicCipher.png Once you run this you get an output along the lines of:</description>
+    </item>
+    <item>
+      <title>Sound Inversion</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/sound-inversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/sound-inversion/</guid>
+      <description>Description Soldier, we believe that the enemy has hidden a spoken audio message somewhere in this file. Find it, and report back immediately.&#xA;The challange also provides an mp3 file.&#xA;Solution As always, when you download a stegonography file, try checking the exif/meta data. For this I used exiftool. You can do this using a command like:&#xA;Once you run this you get an output along the lines of:&#xA;This reveals not much, except the comment which says Is it just me or is the right channel different?</description>
+    </item>
+    <item>
+      <title>That&#39;s not my Unicode</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/that-s-not-my-unicode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/that-s-not-my-unicode/</guid>
+      <description>Description These strange symbols seem ancient, but they may be trying to tell you something more modern. Piece together the message hidden in plain sight — sometimes, what looks old may speak in a new language.&#xA;The challenge alos supplied the folllowing image Solution As always when you get an image file, the first step is checking the exif data:&#xA;exiftool ThatsNotMyUnicode.png ExifTool Version Number : 13.10 File Name : ThatsNotMyUnicode.</description>
+    </item>
+    <item>
+      <title>TLSB</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/tlsb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/tlsb/</guid>
+      <description>Description You might have heard of Least Significant Bit (LSB) Steganography, but have you ever heard of Third Least Significant Bit (TLSB) Steganography? (Hopefully not considering I made it up for this challenge).&#xA;Writeup The description tells you that the steganography method to hide the flag is &amp;lsquo;Third Least Significant Bit Encryption&amp;rsquo;, which with how it also mentions LSB likely means that it is just a variation on LSB encryption.</description>
+    </item>
+    <item>
+      <title>Tony&#39;s Toolyard</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/tony-s-toolyard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/tony-s-toolyard/</guid>
+      <description>Description Tony had decided to open his website up to bug bounties for the first time. So it will likely have extremely common vulnerabilities.&#xA;There is also a link&#xA;Writeup The link leeds to a website that appears to be a toolyard online shop.&#xA;searching in this field shows up a table of results:&#xA;This is likely done through either an SQL databse, or storing the data in a json/csv file.</description>
+    </item>
+    <item>
+      <title>Xanarto</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/xanarto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/xanarto/</guid>
+      <description>Description I found this guy on LinkedIn who claimed to have created an uncrackable algorithm. Prove him wrong. I have attached the post in an image.&#xA;Writeup The challange gives you a photo of a LinkedIn post, and you need to find the post first off. By searching up site:linkedin.com Xanarto, the posters account comes up on linkedin.&#xA;looking at their linkedin, they link their github:&#xA;Github: https://github.com/Xanarto Going to all posts gets you the encrypted message:</description>
     </item>
   </channel>
 </rss>

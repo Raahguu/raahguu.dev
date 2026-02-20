@@ -26,11 +26,7 @@
             }
             html.dark .border {
                 border-color: #374151; 
-            }
-            .carousel-item {
-                display: inline-block;
-                margin: 0 1rem;
-            }            
+            }        
             .flex {
                 display: flex;
             }
@@ -44,14 +40,13 @@
                 }
             }
             
-            .tech-carousel {
-                overflow: hidden;
-                width: 100%;
-                padding: 1rem 0;
+            pre {
+                overflow-x: auto;
+                white-space: pre;
             }
-            
-            .carousel-track {
-                white-space: nowrap;
+
+            pre code {
+                display: block;
             }
         </style>
         
@@ -110,16 +105,16 @@
     </style>
 </head>
 <header class="py-6 relative">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-7xl mx-auto px-4">
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div class="flex justify-between items-center">
                 
-                <a href="http://localhost:1313/" class="text-xl font-bold text-text-primary-dark hover:text-accent-dark transition-colors duration-300">
+                <a href="http://localhost:1313/" class="text-2xl font-bold text-text-primary-dark hover:text-accent-dark transition-colors duration-300">
                     Joshua Finlayson
                 </a>
                 
                 <button id="mobile-menu-button" class="md:hidden text-text-secondary-dark hover:text-text-primary-dark focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
@@ -127,9 +122,7 @@
             
             <nav class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-6">
                 
-                <a href="http://localhost:1313/writeups" class="inline-block text-lg text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Writeups</a>
-                
-                <a href="http://localhost:1313/contact" class="inline-block text-lg text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Contact Me</a>
+                <a href="http://localhost:1313/writeups" class="inline-block text-xl text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Writeups</a>
                 
             </nav>
         </div>
@@ -152,8 +145,6 @@
             <nav class="flex flex-col p-6 space-y-4">
                 
                 <a href="http://localhost:1313/writeups" class="text-xl text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Writeups</a>
-                
-                <a href="http://localhost:1313/contact" class="text-xl text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Contact Me</a>
                 
             </nav>
         </div>
@@ -203,29 +194,149 @@
         <main>
             
 <div class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8 text-text-primary-dark">Rev</h1>
+    <h1 class="text-5xl font-bold mb-8 text-text-primary-dark">Rev</h1>
+    <nav aria-label="breadcrumb" class="breadcrumb">
+  <ol>
+    
+      <li>
+        <a href="http://localhost:1313/" class="animated-link text-stone-400 text-lg">Raahguu</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/tags/" class="animated-link text-stone-400 text-lg">Tags</a>
+      </li>
+    
+    <li class="active">
+      <a aria-current="page" href="http://localhost:1313/tags/rev/" class="animated-link text-stone-300 text-lg">Rev</a>
+    </li>
+  </ol>
+</nav>
+
+<style>
+.breadcrumb ol {
+  padding-left: 0;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: "/";
+}
+</style>
+    <div class="text-xl py-5" id="markdown">
+    
+    </div>
+    <br>
     <div class="space-y-6">
         
         <article class="border border-border-primary-dark rounded-lg p-6  bg-neutral-800">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="../../writeups/yes/" class="text-accent-dark hover:text-text-primary-dark">Test Writeup</a>
+            <h2 class="text-3xl font-semibold mb-2">
+                <a href="http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/root-detection-is-the-least-of-our-problems-but-lets-have-it-anyway/" class="text-accent-dark hover:text-text-primary-dark">Root Detection is the least of our problems but let&#39;s have it anyway</a>
+            </h2>
+            
+        </article>
+        
+        <article class="border border-border-primary-dark rounded-lg p-6  bg-neutral-800">
+            <h2 class="text-3xl font-semibold mb-2">
+                <a href="http://localhost:1313/writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/" class="text-accent-dark hover:text-text-primary-dark">The Soldier of God, Rick</a>
+            </h2>
+            
+        </article>
+        
+        <article class="border border-border-primary-dark rounded-lg p-6  bg-neutral-800">
+            <h2 class="text-3xl font-semibold mb-2">
+                <a href="http://localhost:1313/writeups/2025/pecanplus/xanarto/" class="text-accent-dark hover:text-text-primary-dark">Xanarto</a>
             </h2>
             
         </article>
         
     </div>
 </div>
+<script>
+    
+    function load_classes() {
+        markdown_article = document.getElementById("markdown");
+        children = [...Array.from(markdown_article.children)]
+
+        children.forEach((item) => {
+            switch(item.nodeName) {
+                case "P":
+                    item.classList.add("text-lg");
+                    break;
+                case "H1":
+                    item.classList.add("text-5xl", "font-bold", "mb-4", "mt-5", "text-green-500");
+                    break;
+                case "H2":
+                    item.classList.add("text-4xl", "font-bold", "mb-3", "mt-5", "text-green-400");
+                    break;
+                case "H3":
+                    item.classList.add("text-3xl", "font-bold", "mb-2", "mt-4", "text-green-300");
+                    break;
+                case "H4":
+                    item.classList.add("text-2xl", "font-bold", "mb-1", "mt-4", "text-green-200");
+                    break;
+                case "UL":
+                    item.classList.add("text-lg", "marker:text-green-300", "list-disc", "marker:content-['>>__']", "pl-9", "mb-2", "mt-2");
+                    break;
+                case "OL":
+                    item.classList.add("text-lg", "marker:text-green-300", "list-decimal", "marker:content-[counter(list-item)'.__']", "pl-9", "mb-2", "mt-2");
+                    break;
+                case "DIV":
+                    item.classList.add("text-lg", "mb-4", "mt-4");
+                    if (item.classList.contains("highlight")) {
+                        code_block = item.children[0].children[0];
+
+                        lang = code_block.getAttribute("data-lang");
+
+                        lang_label = document.createElement("div");
+                        lang_label.classList.add("absolute", "top-0", "right-0", "text-stone-400", "px-2", "py-1", "text-base", "font-semibold", "rounded-br-md");
+                        label = document.createTextNode(lang);
+                        lang_label.appendChild(label);
+
+                        item.appendChild(lang_label);
+                        item.classList.add("relative");
+                        item.children[0].classList.add("pt-4");
+                    }
+                    break;
+            }
+
+            if (item.nodeName != "P" || item.children.length == 0) return;
+
+            inner_children = [...Array.from(item.children)]
+
+            inner_children.forEach((actual) => {
+                switch(actual.nodeName) {
+                    case "CODE":
+                        actual.classList.add("text-violet-300", "bg-gray-900", "px-1", "py-1");
+                        break;
+                    case "A":
+                        actual.classList.add("animated-link", "text-teal-300", "text-shadow-md", "font-medium", "text-fg-brand");
+                        break;
+                    case "IMG":
+                        actual.classList.add("mb-3", "mt-3", "relative", "left-1/2", "transform", "-translate-x-1/2");
+                        break;
+                }
+            });
+            
+        });
+    }
+   
+    load_classes()
+
+</script>
 
         </main>
         
-<footer class="mt-32 text-center">
-    <div class="max-w-3xl mx-auto">
+<footer class="text-center">
+    <div class="max-w-4xl mx-auto">
         <div class="border-border-primary-dark">
             <div class="flex flex-col items-center justify-center gap-2">
                 
                 
-                <p class="text-text-secondary-dark text-xm ">© 2026 Joshua Finlayson</p>
-                <p class="text-text-secondary-dark text-xm pb-12">Built using <a href="https://gohugo.io/" target="_blank" class="animated-link text-accent-dark hover:text-text-primary-dark">Hugo</a>. Take a look at my <a href="https://github.com/Raahguu" target="_blank" class="animated-link text-accent-dark hover:text-text-primary-dark">GitHub</a></p>
+                <p class="text-text-secondary-dark text-lg ">© 2026 Joshua Finlayson</p>
+                <p class="text-text-secondary-dark text-lg pb-12">Built using <a href="https://gohugo.io/" target="_blank" class="animated-link text-accent-dark hover:text-text-primary-dark">Hugo</a>. Take a look at my <a href="https://github.com/Raahguu" target="_blank" class="animated-link text-accent-dark hover:text-text-primary-dark">GitHub</a></p>
                 
             </div>
         </div>

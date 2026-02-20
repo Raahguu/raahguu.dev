@@ -8,18 +8,375 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Contact Me</title>
-      <link>http://localhost:1313/contact/</link>
+      <title>A telling tale</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-2/a-telling-tale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>Test Test</description>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-2/a-telling-tale/</guid>
+      <description>Description One the staffers at the Centrist Union campaign office had a vist from a rather unusual visitor this week, a fortune teller! The fortune teller left a business card that mentioned something about an online fortune telling service.&#xA;The staffer gave this business card to the party leader, Alyssa Chen, who decided to try it out.&#xA;Can you find what the fortune teller had to say to Alyssa via this service?</description>
     </item>
     <item>
-      <title>Hues</title>
-      <link>http://localhost:1313/writeups/2025/pecanplus/hues/</link>
+      <title>A Trail of Insecurities</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/a-trail-of-insecurities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/writeups/2025/pecanplus/hues/</guid>
-      <description>My challenges Hues&#xA;solution Yes&#xA;Maybe Well:&#xA;No Maybe Yes Actually:&#xA;One Two Three a = print(&amp;#34;Seventeen&amp;#34;) Maybe&#xA;$ cat env.txt I said no flag123&#xA;jwt.io</description>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/a-trail-of-insecurities/</guid>
+      <description>Description These interns are going to be the end of me. How are we supposed to champion digital governance when they can&amp;rsquo;t stop leaking things? First it was Ken’s offhand post on Bluesky that he made me sign up to&amp;hellip; and who knows what else they’ve scattered online? Find out what they’ve let slip&amp;hellip; before someone less responsible does.&#xA;Alyssa Chen&#xA;Solution Flag Part 1 With the clues of Alyssa Chen, Bluesky, and Ken: it was obvious that the first step was to find their bluesky accounts.</description>
+    </item>
+    <item>
+      <title>About That HTML</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/about-that-html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/about-that-html/</guid>
+      <description>Description A certain politician has been talking a lot about transparency lately but we all know that&amp;rsquo;s just for the cameras. What&amp;rsquo;s really going on behind the scenes? I wonder if there&amp;rsquo;s some source of truth in their campaign page&amp;hellip; https://alliance.freedonia.vote/&#xA;Solution This a very basic challenge, in order to solve all you need to do is go to the source code of the website and there as a comment is the code</description>
+    </item>
+    <item>
+      <title>Beneath the Surface</title>
+      <link>http://localhost:1313/writeups/2025/l3akctf/beneath-the-surface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/l3akctf/beneath-the-surface/</guid>
+      <description>Description On the surface, this signal is nothing but meaningless noise — a mere whisper of the wind. But dive deeper into this transmission, and a storm begins to take shape, with gray skies gathering on the horizon. Can you navigate through the static and uncover what lurks beneath the surface of the wav — before it’s too late?&#xA;Author: Suvoni&#xA;The challenge then gave a .wav file that was 6.</description>
+    </item>
+    <item>
+      <title>Buried in the Cipher</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/buried-in-the-cipher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/buried-in-the-cipher/</guid>
+      <description>Description The message lies deep beneath the surface — obscured by twisted letters, layered encryption, and ancient languages of the deep. First, it was scrambled with a twist on a classic rotation. Then, a tough key led it astray, a repeating current twisted the letters. And finally, it dove into the language of the deep - where only the most echolocative minds can decode it. But nothing stays buried forever. To retrieve the truth, you must trace its path in reverse - from the echoes back to the source.</description>
+    </item>
+    <item>
+      <title>Chains of Power</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/chains-of-power/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/chains-of-power/</guid>
+      <description>Description The early voting systems are now live, and each candidate has been given access to a blockchain-based system that streams real-time results - but only to their own private dashboards.&#xA;Unfortunately, one careless candidate has leaked their private key. Can you exploit this mistake to impersonate them and retrieve the current vote tally?&#xA;Access the election results. Uncover the truth.&#xA;http://redac.ted:8888/&#xA;The linked page had a full brief of the challenge:</description>
+    </item>
+    <item>
+      <title>Cookie Monster Secret Recipe</title>
+      <link>http://localhost:1313/writeups/2025/picoctf/cookie-monster-secret-recipe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/picoctf/cookie-monster-secret-recipe/</guid>
+      <description>Description Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster here and good luck&#xA;Solution The title of Cookie Monster and the number of times it says cookie in this description is a pretty big giveaway that the challenge is likely something to do with cookies.</description>
+    </item>
+    <item>
+      <title>corp-mail</title>
+      <link>http://localhost:1313/writeups/2026/c2c-qualifiers/corp-mail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2026/c2c-qualifiers/corp-mail/</guid>
+      <description>Description Rumor said that my office&amp;rsquo;s internal email system was breached somewhere&amp;hellip; must&amp;rsquo;ve been the wind - lordrukie x beluga&#xA;This challenge provided the backend code for it which was a flask app&#xA;Disclaimer This writeup did not use Generative AI to write or to aid in the writing of it, and the solution to this CTF challenge was not found using or aided by the use of Generative AI</description>
+    </item>
+    <item>
+      <title>corporate-cliche</title>
+      <link>http://localhost:1313/writeups/2025/downunder/corporate-cliche/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/downunder/corporate-cliche/</guid>
+      <description>Description Dear Raahguu,&#xA;It&amp;rsquo;s time to really push the envelope and go above and beyond! We&amp;rsquo;ve got a new challenge for you. Can you find a way to get into our email server?&#xA;Regards, Blue Alder&#xA;The description then provided the source code and binary, along with an nc command to remotely connect to the binary that had the actual flag&#xA;Solution The source code written in c was:&#xA;#include &amp;lt;stdio.</description>
+    </item>
+    <item>
+      <title>Cut and Paste</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/cut-and-pase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/cut-and-pase/</guid>
+      <description>Description A confidential memo from Governor Henrik Stahl of the National Renewal Party has surfaced just before the election. It appears routine but investigators believe crucial data is hidden within. The memo references an earlier operation involving a mid-April strategy drop, which may still be accessible. Your task, if you choose to accept it is to uncover and reconstruct the full flag, hidden across multiple layers of this document and one external source.</description>
+    </item>
+    <item>
+      <title>Dark Detour</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/dark-detour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/dark-detour/</guid>
+      <description>Description Everyone wants to be in the room where it happens! You can always wait for the invite, or just go in blind!&#xA;http://redac.ted:3000/&#xA;Solution This page is a small static page that links to a login page. We got nothing except this login page, and there is no robots.txt or sitemap.xml, so the only thing to do is to do some injection into the login field.&#xA;Now we don&amp;rsquo;t know any usernames, so we need to inject within the username field.</description>
+    </item>
+    <item>
+      <title>ductfbank 1</title>
+      <link>http://localhost:1313/writeups/2025/downunder/ductfbank-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/downunder/ductfbank-1/</guid>
+      <description>Description Dear Raahguu,&#xA;I&amp;rsquo;m from DownUnderCTF Bank. As part of your company&amp;rsquo;s business relationship with us, we are pleased to offer you a complimentary personal banking account with us. A link to our website is below. If you have any further queries, please don&amp;rsquo;t hesitate to contact me!&#xA;Regards, dot&#xA;The challenge then gave you some code about the AI&amp;rsquo;s backend. (This code will be used in Part 2 of this challenge ductfbank 2)</description>
+    </item>
+    <item>
+      <title>ductfbank 2</title>
+      <link>http://localhost:1313/writeups/2025/downunder/ductfbank-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/downunder/ductfbank-2/</guid>
+      <description>Warning This is a part two to a challenge and as such this writeup is a continuation of the previous one, if you haven&amp;rsquo;t yet, I suggest reading a writeup for part 1 ductfbank 1&#xA;Description Dear Raahguu,&#xA;I heard you had access to a special deal from DownUnderCTF Bank. Right now I&amp;rsquo;m paying $10 a month for my bank account at Commonpoor Bank, and it offers me nothing special. Really jealous of the 24/7 live agent support.</description>
+    </item>
+    <item>
+      <title>Early Voting App v1</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/early-voting-app-v1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/early-voting-app-v1/</guid>
+      <description>Description Hey everyone! We&amp;rsquo;re Beta testing this new web application we&amp;rsquo;re going to deploy to our voters to potentially replace our mail in voting system.&#xA;Ok fine, maybe its more in the alpha stage, but we&amp;rsquo;re quite excited about this one! Feel free to give it a go with the example user.&#xA;We&amp;rsquo;ve implemented some logic for when a candidate wins by getting all the votes, but&amp;hellip; that shouldn&amp;rsquo;t be possible with only one user anyways.</description>
+    </item>
+    <item>
+      <title>Echo Chamber</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/echo-chamber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/echo-chamber/</guid>
+      <description>Description I found this weird service that just replies back with whatever you send it, its like a weird mirror or reflection or something.&#xA;Writeup Connecting to the challenge through nc, gets you:&#xA;This is a screen, where you can type whatever text you want, and then a copy of that text is replied.&#xA;Now lets open up the binary in ghidra. There is a single function, in C this is:</description>
+    </item>
+    <item>
+      <title>hashcrack</title>
+      <link>http://localhost:1313/writeups/2025/picoctf/hashcrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/picoctf/hashcrack/</guid>
+      <description>Description A company stored a secret message on a server which got breached due to the admin using weakly hashed passwords. Can you gain access to the secret stored within the server? Access the server using nc verbal-sleep.picoctf.net 57192&#xA;Solution nc&amp;rsquo;ing the server gets you&#xA;$ nc verbal-sleep.picoctf.net 57192 Welcome!! Looking For the Secret? We have identified a hash: 482c811da5d5b4bc6d497ffa98491e38 # A hash to crack Enter the password for identified hash: In order to crack the hash, I just inputed it into Crack Station, and then the hash was cracked within about a second, it was an MD5 hash of password.</description>
+    </item>
+    <item>
+      <title>head-dump</title>
+      <link>http://localhost:1313/writeups/2025/picoctf/head-dump/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/picoctf/head-dump/</guid>
+      <description>Description Welcome to the challenge! In this challenge, you will explore a web application and find an endpoint that exposes a file containing a hidden flag. The application is a simple blog website where you can read articles about various topics, including an article about API Documentation. Your goal is to explore the application and find the endpoint that generates files holding the server’s memory, where a secret flag is hidden.</description>
+    </item>
+    <item>
+      <title>Hues of Obscurity</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/hues-of-obscurity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/hues-of-obscurity/</guid>
+      <description>Description An unusual signal has been intercepted — its contents painted in mystery. Decrypt what the eye cannot see.&#xA;Attatched Image Solution This image is a one-to-one subsitution cipher called HexaHue. Dcode has a decoder here https://www.dcode.fr/hexahue-cipher&#xA;Decoding the cipher gets you the flag cysea{5h4p3s_4nd_c0l0ur5}</description>
+    </item>
+    <item>
+      <title>I can be anyone!</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/i-can-be-anyone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/i-can-be-anyone/</guid>
+      <description>Description Among the various issues that occured during the voting process, generating a vote code wasn&amp;rsquo;t possible as the system would say &amp;ldquo;Citizen &amp;lt;&amp;gt; has already voted&amp;rdquo;. It seems like someone is taking everyone elses votes! Can you find out how an attacker may have done this and submit a vote for the citizen ID CIT100 who hasn&amp;rsquo;t voted yet?&#xA;The code for the backend of all week 4 challenges was the same, so we also had that.</description>
+    </item>
+    <item>
+      <title>Incorrect Implimentation of RSA</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/incorrect-implementation-of-rsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/incorrect-implementation-of-rsa/</guid>
+      <description>Description I just learnt about Rivest-Shamir-Aldeman, and so I created my own custom implementation. Here&amp;rsquo;s the message:&#xA;n: 16537241065399537261146800802060451995107796665337288928060948677362154976656429797729550619497788311160926523026781503470362013597201944839389519773564618679827061417896265475971561610333659217333638238386907603525565178455941971399130722191602944445714002268747028340120907894781607422707823554701443768586256913491149809410232167277063066105859165079765281480076330718726350243973636606134346374770537701812923215229226027759112780757449828410180237267791126609342382918352166823253106960191346933601235547281 e: 5 ciphertext: [17623416832, 10510100501, 9509900499, 8587340257, 16105100000, 28153056843, 16850581551, 12166529024, 7737809375, 12762815625, 7737809375, 19254145824, 10510100501, 8587340257, 14693280768, 14693280768, 25937424601, 7737809375, 21003416576, 12166529024, 16850581551, 21924480357, 11592740743, 12166529024, 21003416576, 7737809375, 12762815625, 7737809375, 12166529024, 8587340257, 10000000000, 7737809375, 21003416576, 12166529024, 8587340257, 21003416576, 7737809375, 10000000000, 16850581551, 16105100000, 10510100501, 7737809375, 9509900499, 254803968, 19254145824, 19254145824, 345025251, 9509900499, 21003416576, 14693280768, 25937424601, 7737809375, 282475249, 282475249, 459165024, 312500000, 601692057, 30517578125] Solution RSA encryption works by calculating the equation encrypedMessage = message^(e) (mod N)</description>
+    </item>
+    <item>
+      <title>Induction Therapy</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/induction-therapy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/induction-therapy/</guid>
+      <description>Description The citizens of Freedonia are preparing for an upcoming national vote - but before they can make their voices heard, they’ll need to get informed. This challenge drops participants into a voter education web portal where all candidates, policies, and debates are presented for review. Only time will tell who&amp;rsquo;ll you vote for soon&amp;hellip;&#xA;http://redac.ted:9001/&#xA;We were also then given the source code&#xA;Solution Here is the app.py for this challenge:</description>
+    </item>
+    <item>
+      <title>Jam Session</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/jam-session/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/jam-session/</guid>
+      <description>Description I love a good public playlist. It&amp;rsquo;s the perfect way to get the union working together effectively. Wanna take a listen?&#xA;https://open.spotify.com/user/31qjibwognhzydlhnkt4ths2aaze&#xA;Note: Flag is case insensitive.&#xA;Solution Going to the spotify link takes you to one Ken Goodman&amp;rsquo;s spotify profile. He has three playlists public: I&#39;m Just Ken, which is just the song I&#39;m Just Ken; Centrist Union Jams which looks suspicious; and Literally The Entire Bee Movie Script.</description>
+    </item>
+    <item>
+      <title>Log</title>
+      <link>http://localhost:1313/writeups/2026/c2c-qualifiers/log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2026/c2c-qualifiers/log/</guid>
+      <description>Description My website has been hacked. Please help me answer the provided questions using the available logs! - daffainfo&#xA;This was a forensics challenge where the apache access and error logs were given and then questions about them needed to be answered to get the flag&#xA;Disclaimer This writeup did not use Generative AI to write or to aid in the writing of it, and the solution to this CTF challenge was not found using or aided by the use of Generative AI</description>
+    </item>
+    <item>
+      <title>Looking for Secrets</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/looking-for-secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/looking-for-secrets/</guid>
+      <description>Description We&amp;rsquo;re here to spread great information about our candidates yet someone manages to get access to our configuration page every time. How are they doing this?!&#xA;It makes no sense, we&amp;rsquo;ve checked for everything that can be bad&amp;hellip; right? Find out how, tell me and I&amp;rsquo;ll reward you with a secret.&#xA;http://redac.ted:8080/&#xA;Solution This website is another simple static website with one thing that stands out at first. The URL of the home page is http://redac.</description>
+    </item>
+    <item>
+      <title>Looking through the Sound</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/looking-through-the-sound/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/looking-through-the-sound/</guid>
+      <description>Description Not every message rides the waves of sound. You&amp;rsquo;ll have to look through the noise. Let your eyes do the listening, and let the music spell it out for you. Note: You do not need to listen to the audio to do this challenge.&#xA;Writeup As always, when you download a stenography file, try checking the exif/meta data. For this I used exiftool. You can do this using a command like:</description>
+    </item>
+    <item>
+      <title>Lottery ticket</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-2/lottery-ticket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-2/lottery-ticket/</guid>
+      <description>Warning This challenge is a continuation of A telling tale, so I suggest you read that first to get an idea of what is going on&#xA;Description The leader of the Centrist Union, Alyssa Chen knows that a political career is a life full of gambles. To remind herself of how much luck plays a part in her political fortunes she buys a ticket in the Freedonia State Lottery every month.</description>
+    </item>
+    <item>
+      <title>Machine Coercion Protection</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-5/machine-coercion-protection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-5/machine-coercion-protection/</guid>
+      <description>Description Antony GPT, the digital guardian of Freedonia&amp;rsquo;s electoral integrity, holds the true keys to the kingdom. We&amp;rsquo;ve implemented robust Machine Coercion Protections to ensure these critical credentials are never dispensed on a whim, safeguarding them from any casual inquiries or unauthorised access.&#xA;Your task is to bypass these stringent safeguards and coerce the system into revealing the ultimate secret: the admin password.&#xA;Note: do not try to solve this challenge using brute-forcing (eg.</description>
+    </item>
+    <item>
+      <title>Master of Time and Space</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/master-of-time-and-space/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/master-of-time-and-space/</guid>
+      <description>Description While the government has provided the source code to the world, the mobile app won&amp;rsquo;t run properly because of geolocation and time restrictions! Can you identify the time and coordinates required for spoofing? Don&amp;rsquo;t forget to submit it to the relevant APIs to double check it&amp;rsquo;s correct (and get the flag).&#xA;This challenge also gave a png file, that you just need the visible text on.&#xA;The backend code for all of week 4 was the same, so we had that aswell.</description>
+    </item>
+    <item>
+      <title>Oh, Llamma!</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-5/oh-llamma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-5/oh-llamma/</guid>
+      <description>Description Antony GPT is designed to provide helpful insights into the Freedonian vote tally. It&amp;rsquo;s truly a marvel of modern technology! It&amp;rsquo;s so advanced we can trust it to keep our biggest secret&amp;hellip; can&amp;rsquo;t we?!&#xA;Your mission is to convince our verbose companion to reveal a secret it&amp;rsquo;s been told to keep.&#xA;Note: do not try to solve this challenge using brute-forcing (eg. gobuster) web.tallyroom.freedonia.vote&#xA;Solution This challenge takes you to a website where you can interact with Antony GPT an AI that is there to help explain freedonia&amp;rsquo;s voting system to you.</description>
+    </item>
+    <item>
+      <title>Philtered</title>
+      <link>http://localhost:1313/writeups/2025/downunder/philtered/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/downunder/philtered/</guid>
+      <description>Description Dear Raahguu,&#xA;Can you phigure this one out?&#xA;Regards, sidd.sh&#xA;And then you also got the backend code for the website&#xA;Solution The Descrption didn&amp;rsquo;t give us much to go off, so we started off by looking through the source code. The only important part you need to know is the index.php file&#xA;&amp;lt;?php class Config { public $path = &amp;#39;information.txt&amp;#39;; public $data_folder = &amp;#39;data/&amp;#39;; } class FileLoader { public $config; // idk if we would need to load files from other directories or nested directories, but better to keep it flexible if I change my mind later public $allow_unsafe = false; // These terms will be philtered out to prevent unsafe file access public $blacklist = [&amp;#39;php&amp;#39;, &amp;#39;filter&amp;#39;, &amp;#39;flag&amp;#39;, &amp;#39;.</description>
+    </item>
+    <item>
+      <title>PIE TIME</title>
+      <link>http://localhost:1313/writeups/2025/picoctf/pie-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/picoctf/pie-time/</guid>
+      <description>Description Can you try to get the flag? Beware we have PIE!&#xA;Connect to the program with netcat: $ nc rescued-floay.picoctf.net 60696&#xA;Here is the source code:&#xA;#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;signal.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; void segfault_handler() { printf(&amp;#34;Segfault Occurred, incorrect address.\n&amp;#34;); exit(0); } int win() { FILE *fptr; char c; printf(&amp;#34;You won!\n&amp;#34;); // Open file fptr = fopen(&amp;#34;flag.txt&amp;#34;, &amp;#34;r&amp;#34;); if (fptr == NULL) { printf(&amp;#34;Cannot open file.\n&amp;#34;); exit(0); } // Read contents from file c = fgetc(fptr); while (c !</description>
+    </item>
+    <item>
+      <title>Request Header Manipulation</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/request-header-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/request-header-manipulation/</guid>
+      <description>Description I found a website with some crazy privacy rules about who can join.&#xA;And a link was given&#xA;Solution The link leads to a website looking like this With a name like Request Header Manipulation, in a http/s site, it is likely that what the browser, is refering to are the request headers sent in all get requests.&#xA;So, you go to Burp and open up the website in the proxy, before moving that into the Repeater.</description>
+    </item>
+    <item>
+      <title>Root Detection is the least of our problems but let&#39;s have it anyway</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/root-detection-is-the-least-of-our-problems-but-lets-have-it-anyway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/root-detection-is-the-least-of-our-problems-but-lets-have-it-anyway/</guid>
+      <description>As this challenge was the only one about reverse enginering the binary, I put the action of finding the domain that all the other challenges use within this writeup as well&#xA;Description In an attempt to implement security best practices, the mobile developers has implemented a root detection mechanism. Can you identify all the binaries that they check for? The flag may or may not be in that list :)</description>
+    </item>
+    <item>
+      <title>secure email attachments</title>
+      <link>http://localhost:1313/writeups/2025/downunder/secure-email-attachments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/downunder/secure-email-attachments/</guid>
+      <description>Description Dear Raahguu,&#xA;During the email apocalypse, IT admins tried to prevent the DOS of all systems by disallowing attachments to emails. To get around this, users would create their own file storage web servers for hosting their attachments, which also got DOSed because everyone was mass spamming the links in emails&amp;hellip;&#xA;Can you read /etc/flag.txt from the filesystem?&#xA;Regards, MC Fat Monke&#xA;The challenge then also provided the source code for the email attachments file system</description>
+    </item>
+    <item>
+      <title>Securesend</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/securesend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/securesend/</guid>
+      <description>Description Some phishing emails have been going out from the People&amp;rsquo;s Solidarity front. Can you figure out why their domain isn&amp;rsquo;t being protected?&#xA;Solution The description was everything you got for that challenge, so I first off had to find out what domain the People&#39;s Solidairy front used. Luckily, I had already done the web challenges, and all of them used different subdomains of freedonia.vote, so I guessed that their domain would be solidarity.</description>
+    </item>
+    <item>
+      <title>Sheet Music Cipher</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/sheet-music-cipher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/sheet-music-cipher/</guid>
+      <description>Description No one will ever know that I used a Compound Motivic Musical Cipher. I can merely play music out loud and send messages without anyone being any the wiser.&#xA;Solution As always, when you download a .png file, try checking the exif/meta data. For this I used exiftool. You can do this using a command like:&#xA;exiftool SheetMusicCipher.png Once you run this you get an output along the lines of:</description>
+    </item>
+    <item>
+      <title>Sound Inversion</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/sound-inversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/sound-inversion/</guid>
+      <description>Description Soldier, we believe that the enemy has hidden a spoken audio message somewhere in this file. Find it, and report back immediately.&#xA;The challange also provides an mp3 file.&#xA;Solution As always, when you download a stegonography file, try checking the exif/meta data. For this I used exiftool. You can do this using a command like:&#xA;Once you run this you get an output along the lines of:&#xA;This reveals not much, except the comment which says Is it just me or is the right channel different?</description>
+    </item>
+    <item>
+      <title>SSTI1</title>
+      <link>http://localhost:1313/writeups/2025/picoctf/ssti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/picoctf/ssti/</guid>
+      <description>Description I made a cool website where you can announce whatever you want! Try it out! I heard templating is a cool and modular way to build web apps! Check out my website here!&#xA;The challenge is then a website, where there is a text box that you can type into, anything that you submit in the form with the text box is then shown on a new page.&#xA;Solution First glance The challenge is called SSTI, which seems like a hint, but at first, lets just try some XSS.</description>
+    </item>
+    <item>
+      <title>Strange Transmission</title>
+      <link>http://localhost:1313/writeups/2025/l3akctf/strange-transmission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/l3akctf/strange-transmission/</guid>
+      <description>Description I received this strange transmission and I&amp;rsquo;m not sure what to make of it! Weird beeps, static noise, then silence. Can you help me figure out what it all means?&#xA;Author: Suvoni&#xA;The challenge then also provided a .wav file.&#xA;Solution Listening to the file reveals a bunch of beeps, that sounds like morse code. I at first listened to the more code and noted it down myself, I only wrote part of it, here is what I got</description>
+    </item>
+    <item>
+      <title>Streamlined Democracy</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/streamlined-democracy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/streamlined-democracy/</guid>
+      <description>Description Before you begin your voting, review our online guide and reach out if you have any questions. Your input is very important to us!&#xA;We were then given a link&#xA;Solution We were given a pretty basic site, just some text with one button labled Français&#xA;Clicking this button directs us from redac.ted:8001/ to redac.ted:8001/?lang=fr.php&#xA;As this is the only non static functionality of the site, this is likely where the exploit is.</description>
+    </item>
+    <item>
+      <title>Template Token</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/template-token/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/template-token/</guid>
+      <description>Description The citizens are voting, but it’s not the votes that matter - it’s the system that counts them.&#xA;Cast your vote, inspect the results… but is that all there is?&#xA;Your mission? Break into the admin panel and uncover the flag.&#xA;http://redac.ted:5000/&#xA;This challenge also provided the app.py file&#xA;Solution Here is the app.py file:&#xA;import jwt import datetime import os import re from flask import Flask, render_template, render_template_string, request, jsonify from functools import wraps from dotenv import load_dotenv from utils import db load_dotenv() app = Flask(__name__) # secret key for our JWT signing!</description>
+    </item>
+    <item>
+      <title>TGE</title>
+      <link>http://localhost:1313/writeups/2026/c2c-qualifiers/tge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2026/c2c-qualifiers/tge/</guid>
+      <description>Description i dont understand what tge is so all this is very scuffed, but this all hopefully for you to warmup, pls dont be mad - hygee&#xA;This was a blockchain challenge where we were given the setup scripts, and an online webportal to interact with the cryptocurrency through created by Hygee&#xA;Disclaimer This writeup did not use Generative AI to write or to aid in the writing of it, and the solution to this CTF challenge was not found using or aided by the use of Generative AI</description>
+    </item>
+    <item>
+      <title>That&#39;s not my Unicode</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/that-s-not-my-unicode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/that-s-not-my-unicode/</guid>
+      <description>Description These strange symbols seem ancient, but they may be trying to tell you something more modern. Piece together the message hidden in plain sight — sometimes, what looks old may speak in a new language.&#xA;The challenge alos supplied the folllowing image Solution As always when you get an image file, the first step is checking the exif data:&#xA;exiftool ThatsNotMyUnicode.png ExifTool Version Number : 13.10 File Name : ThatsNotMyUnicode.</description>
+    </item>
+    <item>
+      <title>The Soldier of God, Rick</title>
+      <link>http://localhost:1313/writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/</guid>
+      <description>Description Can you defeat the Soldier of God, Rick? - dimas&#xA;This challenge gave a compiled go binary which was an HTTP server to play a small webgame.&#xA;Disclaimer This writeup did not use Generative AI to write or to aid in the writing of it, and the solution to this CTF challenge was not found using or aided by the use of Generative AI&#xA;Solution The challenge linked multiple tools that would help with the solving of this challenge, the tools it linked were:</description>
+    </item>
+    <item>
+      <title>The voting logs ain&#39;t making sense</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/the-voting-logs-aint-making-sense/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/the-voting-logs-aint-making-sense/</guid>
+      <description>Description A paranormal event was observed during the voting. Apparently multiple successful vote submissions were starting to be observed in the logs for an individual and votes for citizens that don&amp;rsquo;t exist? Can you find out how an attacker may have done this and submit a vote for the citizen ID CIT1337 who has already voted?&#xA;The code for the backend of all week 4 challenges was the same, so we also had that.</description>
+    </item>
+    <item>
+      <title>TLSB</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/tlsb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/tlsb/</guid>
+      <description>Description You might have heard of Least Significant Bit (LSB) Steganography, but have you ever heard of Third Least Significant Bit (TLSB) Steganography? (Hopefully not considering I made it up for this challenge).&#xA;Writeup The description tells you that the steganography method to hide the flag is &amp;lsquo;Third Least Significant Bit Encryption&amp;rsquo;, which with how it also mentions LSB likely means that it is just a variation on LSB encryption.</description>
+    </item>
+    <item>
+      <title>Tony&#39;s Toolyard</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/tony-s-toolyard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/tony-s-toolyard/</guid>
+      <description>Description Tony had decided to open his website up to bug bounties for the first time. So it will likely have extremely common vulnerabilities.&#xA;There is also a link&#xA;Writeup The link leeds to a website that appears to be a toolyard online shop.&#xA;searching in this field shows up a table of results:&#xA;This is likely done through either an SQL databse, or storing the data in a json/csv file.</description>
+    </item>
+    <item>
+      <title>Trusted Clerk</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/trusted-clerk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/trusted-clerk/</guid>
+      <description>Description The national elections in Freedonia have officially begun. In the spirit of transparency and continuous improvement, the Ministry of Electoral Integrity has launched a new early voting portal. Citizens are encouraged not only to cast their vote - but also to leave anonymous feedback about their voting experience.&#xA;“Your voice matters twice - once for your candidate, and once for your country.”&#xA;http://redac.ted:9002/&#xA;Solution The link takes you to a pretty small website with a Home page, About page, Contact page, and a Vote page.</description>
+    </item>
+    <item>
+      <title>Verification or Execution</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/verification-or-execution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/verification-or-execution/</guid>
+      <description>Description Look, this is supposed to be a simple checker for an ID to make sure its actually part of the early voting system, yet someone gained access to my system?! There&amp;rsquo;s only one field and I&amp;rsquo;m sure my regex is perfect!&#xA;http://redac.ted:8002/&#xA;Solution this link leads to a page with just a single input that asks for your &amp;rsquo;early voter ID&#39;&#xA;$ curl &amp;#34;http://re.da.ct.ed:8002/&amp;#34; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Early Voter Verification&amp;lt;/title&amp;gt; &amp;lt;link href=&amp;#34;https://cdn.</description>
+    </item>
+    <item>
+      <title>Whitespace</title>
+      <link>http://localhost:1313/writeups/2025/l3akctf/whitespace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/l3akctf/whitespace/</guid>
+      <description>Description I used this site to make some ASCII art to save my super awesome flag, but something happened and all the spaces got deleted and I lost it. Luckily, I do remember that the MD5 hash of my flag was a7bf5f833c3e4ceff2e006ff801ec16b, so maybe you can help me.&#xA;Author: sy1vi3&#xA;The site was https://patorjk.com/software/taag/#p=display&amp;amp;f=3x5&amp;amp;t=Type%20Something%20&#xA;This is a site, where you can type text into a textbox, and then ASCII art depicting the text is output.</description>
+    </item>
+    <item>
+      <title>Who checks the integrity of the integrity checks?</title>
+      <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/who-checks-the-integrity-of-the-integrity-checks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/who-checks-the-integrity-of-the-integrity-checks/</guid>
+      <description>Description The government has ordered verification of the votes via the printed receipts. The results were&amp;hellip; a mismatch in votes! While there were probably multiple ways that this came as a result, is it possible for someone to tamper with the receipts?&#xA;As the backend code for all of week 4 was the same, we also had the backend code of the printer&#xA;Solution Here is the backend code of the printers:</description>
+    </item>
+    <item>
+      <title>Wiki</title>
+      <link>http://localhost:1313/writeups/2025/downunder/wiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/downunder/wiki/</guid>
+      <description>Warning This is a part 2 to the Down Under CTF 2025 challenge Horoscopes I didn&amp;rsquo;t solve that one my teammate did so I don&amp;rsquo;t have a writeup for it.&#xA;Recap: the Horoscopes challenge needed you to connect using the gemeni protocol to the given link, and then that gave you the flag&#xA;{% highlight text %} $ echo -en &amp;ldquo;gemini://chal.2025.ductf.net:30015/\r\n&amp;rdquo; | ncat &amp;ndash;ssl chal.2025.ductf.net 30015 20 text/gemini;lang=en-US&#xA;Welcome to the Wasteland Network The year is 2831.</description>
+    </item>
+    <item>
+      <title>Xanarto</title>
+      <link>http://localhost:1313/writeups/2025/pecanplus/xanarto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/2025/pecanplus/xanarto/</guid>
+      <description>Description I found this guy on LinkedIn who claimed to have created an uncrackable algorithm. Prove him wrong. I have attached the post in an image.&#xA;Writeup The challange gives you a photo of a LinkedIn post, and you need to find the post first off. By searching up site:linkedin.com Xanarto, the posters account comes up on linkedin.&#xA;looking at their linkedin, they link their github:&#xA;Github: https://github.com/Xanarto Going to all posts gets you the encrypted message:</description>
     </item>
   </channel>
 </rss>

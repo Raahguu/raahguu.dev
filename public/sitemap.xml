@@ -4,24 +4,166 @@
   <url>
     <loc>http://localhost:1313/writeups/2025/</loc>
   </url><url>
+    <loc>http://localhost:1313/writeups/2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-2/a-telling-tale/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/a-trail-of-insecurities/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/about-that-html/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/l3akctf/beneath-the-surface/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/blockchain/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/buried-in-the-cipher/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2026/c2c-qualifiers/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/chains-of-power/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/picoctf/cookie-monster-secret-recipe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2026/c2c-qualifiers/corp-mail/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/downunder/corporate-cliche/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/crypto/</loc>
   </url><url>
-    <loc>http://localhost:1313/writeups/2025/pecanplus/hues/</loc>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/cut-and-pase/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/dark-detour/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/downunder/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/downunder/ductfbank-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/downunder/ductfbank-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/early-voting-app-v1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/echo-chamber/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/forensics/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/picoctf/hashcrack/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/picoctf/head-dump/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/hues-of-obscurity/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/i-can-be-anyone/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/incorrect-implementation-of-rsa/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/induction-therapy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/jam-session/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/l3akctf/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2026/c2c-qualifiers/log/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/looking-for-secrets/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/looking-through-the-sound/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-2/lottery-ticket/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-5/machine-coercion-protection/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/master-of-time-and-space/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/misc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/mobile/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/net/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-5/oh-llamma/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/osint/</loc>
   </url><url>
     <loc>http://localhost:1313/writeups/2025/pecanplus/</loc>
   </url><url>
+    <loc>http://localhost:1313/writeups/2025/downunder/philtered/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/picoctf/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/picoctf/pie-time/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pwn/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/request-header-manipulation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/rev/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/root-detection-is-the-least-of-our-problems-but-lets-have-it-anyway/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/downunder/secure-email-attachments/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/securesend/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/sheet-music-cipher/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/sound-inversion/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/picoctf/ssti/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/steg/</loc>
   </url><url>
+    <loc>http://localhost:1313/writeups/2025/l3akctf/strange-transmission/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/streamlined-democracy/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/template-token/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2026/c2c-qualifiers/tge/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/that-s-not-my-unicode/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/the-voting-logs-aint-making-sense/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/tlsb/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/tony-s-toolyard/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/trusted-clerk/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/verification-or-execution/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/webx/</loc>
   </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-5/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/l3akctf/whitespace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-4/who-checks-the-integrity-of-the-integrity-checks/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/downunder/wiki/</loc>
+  </url><url>
     <loc>http://localhost:1313/writeups/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writeups/2025/pecanplus/xanarto/</loc>
   </url>
 </urlset>

@@ -27,11 +27,7 @@
             }
             html.dark .border {
                 border-color: #374151; 
-            }
-            .carousel-item {
-                display: inline-block;
-                margin: 0 1rem;
-            }            
+            }        
             .flex {
                 display: flex;
             }
@@ -45,14 +41,13 @@
                 }
             }
             
-            .tech-carousel {
-                overflow: hidden;
-                width: 100%;
-                padding: 1rem 0;
+            pre {
+                overflow-x: auto;
+                white-space: pre;
             }
-            
-            .carousel-track {
-                white-space: nowrap;
+
+            pre code {
+                display: block;
             }
         </style>
         
@@ -130,8 +125,6 @@
                 
                 <a href="http://localhost:1313/writeups" class="inline-block text-xl text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Writeups</a>
                 
-                <a href="http://localhost:1313/contact" class="inline-block text-xl text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Contact Me</a>
-                
             </nav>
         </div>
     </div>
@@ -153,8 +146,6 @@
             <nav class="flex flex-col p-6 space-y-4">
                 
                 <a href="http://localhost:1313/writeups" class="text-xl text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Writeups</a>
-                
-                <a href="http://localhost:1313/contact" class="text-xl text-text-secondary-dark hover:text-text-primary-dark transition-colors duration-300" data-menu-link>Contact Me</a>
                 
             </nav>
         </div>

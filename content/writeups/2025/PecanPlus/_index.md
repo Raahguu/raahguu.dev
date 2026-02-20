@@ -1,5 +1,5 @@
 ---
-title: "PecanPlus"
+title: PecanPlus
 ---
 
-I `made` these
+These challenges were made by me (Raahguu) as a challenge creator for Pecan Plus 2025

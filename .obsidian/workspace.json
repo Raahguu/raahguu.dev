@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "80d851073f449c55",
+    "type": "split",
+    "children": [
+      {
+        "id": "19bfb7c3faad4c36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2481359c59bf9ed4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d83d5067c223ff21",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9f828b7ce74f512",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7708a2fb2654da02",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "105bd3d0c59c3e0a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "03e2ed26c69ecb30",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 479.5
+  },
+  "right": {
+    "id": "34275266636dbf41",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e85668af632bed5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56dd9cb5f28a6fc0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7b4346d487850a4d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "41dcd1a8877c45fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4b2c6e3b68fe8d78",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e9188c25ff1d7dae",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2481359c59bf9ed4",
+  "lastOpenFiles": [
+    "archetypes/default.md",
+    "content/writeups/2026/C2C-Qualifiers/The-Soldier-of-God-Rick/1.png",
+    "content/writeups/2026/C2C-Qualifiers/The-Soldier-of-God-Rick/index.md",
+    "content/writeups/2026/C2C-Qualifiers/TGE/1.png",
+    "content/writeups/2026/C2C-Qualifiers/The-Soldier-of-God-Rick",
+    "content/writeups/2026/C2C-Qualifiers/TGE/index.md",
+    "content/writeups/2026/C2C-Qualifiers/Log/index.md",
+    "content/writeups/2026/C2C-Qualifiers/TGE",
+    "content/writeups/2026/C2C-Qualifiers/_index.md",
+    "content/writeups/2026/C2C-Qualifiers/Log",
+    "content/writeups/2026/C2C-Qualifiers/corp-mail/1.png",
+    "content/writeups/2026/C2C-Qualifiers/corp-mail/index.md",
+    "content/writeups/2026/C2C-Qualifiers/corp-mail",
+    "content/writeups/2026/_index.md",
+    "content/writeups/2025/picoCTF/SSTI/index.md",
+    "content/writeups/2025/picoCTF/PIE-TIME/index.md",
+    "content/writeups/2025/picoCTF/SSTI",
+    "content/writeups/2025/picoCTF/head-dump/index.md",
+    "content/writeups/2025/picoCTF/PIE-TIME",
+    "content/writeups/2025/picoCTF/Cookie-Monster-Secret-Recipe/index.md",
+    "content/writeups/2025/picoCTF/head-dump",
+    "content/writeups/2025/picoCTF/hashcrack",
+    "content/writeups/2025/picoCTF/_index.md",
+    "content/writeups/2025/picoCTF/Cookie-Monster-Secret-Recipe",
+    "content/writeups/2025/PecanPlus/Xanarto/1.png",
+    "content/writeups/2025/PecanPlus/Xanarto/index.md",
+    "content/writeups/2025/PecanPlus/Tony-s-Toolyard/1.png",
+    "content/writeups/2025/PecanPlus/Xanarto",
+    "content/writeups/2025/PecanPlus/Tony-s-Toolyard/index.md",
+    "content/writeups/2025/PecanPlus/TLSB/index.md",
+    "content/writeups/2025/PecanPlus/That-s-not-my-unicode/1.png",
+    "content/writeups/2025/PecanPlus/That-s-not-my-unicode/index.md",
+    "content/writeups/2025/PecanPlus/Sound-Inversion/index.md",
+    "content/writeups/2025/PecanPlus/Sheet-Music-Cipher/index.md",
+    "content/writeups/2025/PecanPlus/Request-Header-Manipulation/1.png",
+    "content/writeups/2025/PecanPlus/Request-Header-Manipulation/index.md",
+    "content/writeups/2025/PecanPlus/Looking-Through-The-Sound/1.png",
+    "content/writeups/2025/PecanPlus/Looking-Through-The-Sound/index.md",
+    "content/writeups/2025/PecanPlus/_index.md",
+    "content/writeups/2025/PecanPlus/Untitled.canvas",
+    "content/writeups/2025/PecanPlus/Incorrect-Implementation-of-RSA/index.md",
+    "content/writeups/2025/PecanPlus/Echo-Chamber/1.png",
+    "content/writeups/2025/PecanPlus/Echo-Chamber/index.md",
+    "content/writeups/2025/L3akCTF/Whitespace/index.md",
+    "content/writeups/2025/L3akCTF/Strange-Transmission/1.png",
+    "content/writeups/2025/L3akCTF/Strange-Transmission/index.md",
+    "content/writeups/2025/L3akCTF/_index.md"
+  ]
+}
