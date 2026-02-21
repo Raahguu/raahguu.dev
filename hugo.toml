@@ -4,6 +4,7 @@ title = 'Raahguu'
 
 # URL handling
 canonifyURLs = true
+enableRobotsTXT = true
 
 
 [menu]
