@@ -12,8 +12,17 @@
             <h2 class="text-3xl font-semibold mb-2">
                 <a href="{{ .RelPermalink }}" class="text-accent-dark hover:text-text-primary-dark">{{ .Title }}</a>
             </h2>
-            {{ if .Description }}
-            <p class="text-text-secondary-dark text-lg">{{ .Description }}</p>
+            {{ with .Params.tags }}
+                {{ $tags := . }}
+
+                {{ if not (reflect.IsSlice $tags) }}
+                    {{ $tags = slice $tags }}
+                {{ end }}
+
+                {{ range $i, $e := $tags}}
+                    {{ if $i }} - {{ end }}
+                    <span class="bg-bg-tertiary-dark rounded-md font-medium text-text-secondary-dark">{{ $e }}</span>
+                {{ end }}
             {{ end }}
         </article>
         {{ end }}

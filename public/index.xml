@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>404</title>
+      <link>http://localhost:1313/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/404/</guid>
+      <description>Error 404 The page you were looking for could not be found.</description>
+    </item>
+    <item>
       <title>A telling tale</title>
       <link>http://localhost:1313/writeups/2025/australian-cyber-security-games/week-2/a-telling-tale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
