@@ -18,7 +18,7 @@ http://redac.ted:9002/
 
 The link takes you to a pretty small website with a `Home` page, `About` page, `Contact` page, and a `Vote` page. The `Vote` page looks the most promosing as it has a form on it that sends a request to the backend server.
 
-![Photo of the `Vote` page which shows the form with its fields of `candidate` and `feedback`](1.png)
+![Photo of the `Vote` page which shows the form with its fields of `candidate` and `feedback`](writeups/2025/australian-cyber-security-games/Week-3/Trusted-Clerk/1.png)
 
 This form seems to send back the two data points `candidate` and `feedback`
 

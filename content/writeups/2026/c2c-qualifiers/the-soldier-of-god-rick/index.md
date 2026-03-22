@@ -49,7 +49,7 @@ Next, I installed the ghidra `golang` extension and this allowed me to see that 
 - /app/main.go
 - /app/interactor/game_logic.go
 - /app/entity/game_state.go
-![](1.png))
+![](writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/1.png)
 
 
 
@@ -113,7 +113,7 @@ Amount is converted to an integer, and is checked if it is above 0, before it is
 But, when assigning it to rick's health, it gets converted into an `int4`, from a `long`, so as there are no checks against it it seems possible to cause an integer overflow by giving Rick a very large amount of health and that overflowing into negative health, meaning he is now Dead
 
 ### Time to try out the program
-Creating an instance and going to it on the index page you can enter a `Secret` and a `Battle Cry`.![](2.png)g)
+Creating an instance and going to it on the index page you can enter a `Secret` and a `Battle Cry`.![](2.png)
 
 Passing in the environment variable from before:
 ```bash
@@ -136,7 +136,7 @@ Battle Cry:
 
 The port number is `8080` becuase `main.main` reveals that internally the service runs on port `8080` even if externally the port is different.
 
-This request then reveals somethin![](4.png)png)
+This request then reveals somethin![](4.png)
 
 The request worked, his health overflowed and we got the flag
 ```flag

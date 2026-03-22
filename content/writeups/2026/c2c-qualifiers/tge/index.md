@@ -90,7 +90,7 @@ So `preTGEBalance` is actually not the snapshot balance, but the total amount of
 So with this vulnerability, we have an exploit allowing us to get the flag.
 
 Opening up the instance, this is the interface after solving the challenge and submitting the solution (and clicking launch)
-![TCP1P-CTF-Blockchain-Infra instance](1.png))
+![TCP1P-CTF-Blockchain-Infra instance](writeups/2026/c2c-qualifiers/tge/1.png))
 This uses the [TCP1P-CTF-Blockchain-Infra](https://github.com/TCP1P/TCP1P-CTF-Blockchain-Infra).
 
 We can copy these values and save them as environment variables instead of copying them for every command.
@@ -302,6 +302,6 @@ $ cast call $SETUP "isSolved()(bool)" --rpc-url $RPC
 true
 ```
 
-So now we can go to the UI interface given at the start and click `Flag`, and we get it:![A prompt telling the user they got the flag, and a button offering to copy it](2.png)g)
+So now we can go to the UI interface given at the start and click `Flag`, and we get it:![A prompt telling the user they got the flag, and a button offering to copy it](2.png)
 And that is the flag:
 C2C{just_a_warmup_from_someone_who_barely_warms_up}

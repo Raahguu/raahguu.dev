@@ -21,7 +21,7 @@ We've implemented some logic for when a candidate wins by getting all the votes,
 
 The website starts off with a login page that gives us default credentials on it.
 
-![Photo of the Login Page that gives login credentials `bob:s3cur3p@ss`](1.png)
+![Photo of the Login Page that gives login credentials `bob:s3cur3p@ss`](writeups/2025/australian-cyber-security-games/Week-3/Early-Voting-App-v1/1.png)
 
 We then get a page that displays a poll of all voting results
 

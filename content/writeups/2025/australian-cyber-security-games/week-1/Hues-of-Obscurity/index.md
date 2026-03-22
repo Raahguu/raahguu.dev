@@ -10,7 +10,7 @@ An unusual signal has been intercepted — its contents painted in mystery. Decr
 
 
 Attatched Image
-![Hexahue Cipher image](1.png)
+![Hexahue Cipher image](writeups/2025/australian-cyber-security-games/week-1/Hues-of-Obscurity/1.png)
 
 ## Solution
 
