@@ -26,9 +26,9 @@ The audio sounds like whitenoise, with the occasional noise on the right channel
 
 When opening up `Sound_Inversion.wav` in an audio file editor it looks like this:
 
-![image](/writeups/2025/PecanPlus/Sound-Inversion/1.png)
+![The Spectogram of the sound](1.png)
 
-As can be seen, in the right channel yet again, there appear to be occasional coloumns that are different.
+As can be seen, in the right channel yet again, there appear to be occasional columns that are different.
 
 So, from what we have gotten so far, it seems to be that we need to isolate the solitary sound on the right channel.
 
@@ -36,13 +36,13 @@ Time to research!
 
 First up, the title 'Sound Inversion'. Sound Inversion appears to be a way to do noise cancellation, by inverting the sound waves, the troughs become crests, and the crests become troughs. This results in that when the inverted sound, and the normal sound play at the same time and amplitude, they cancel each other out. This is an effect called 'destructive interference'.
 
-By looking at the two channels of the .wav file, it appears that the left and right channels are the same, except the seperate right channel sound we want to isolate. So if we invert the left channel and play that over the right channel, they should deconstructively interfere, thereby isolating the hidden message.
+By looking at the two channels of the .wav file, it appears that the left and right channels are the same, except the separate right channel sound we want to isolate. So if we invert the left channel and play that over the right channel, they should deconstructively interfere, thereby isolating the hidden message.
 
 Doing this allows the hidden message to be quietly heard, and by increasing the volume the spoken words can be heard. The voice sounds to be saying:
 
-Replacing the charcter names with the characters gets:
+Replacing the character names with the characters gets:
 
-This appears to be the NATO phonetic language, which aligns with the military esque theme of the description. Converting from the NATO phonetic alphabet is easy, as it is just the first letter of all of these words.
+This appears to be the NATO phonetic language, which aligns with the military-esque theme of the description. Converting from the NATO phonetic alphabet is easy, as it is just the first letter of all of these words.
 
 This conversion then gets you the flag!
 

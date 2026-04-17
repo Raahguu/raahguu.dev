@@ -11,7 +11,7 @@ While the government has provided the source code to the world, the mobile app w
 
 This challenge also gave a png file, that you just need the visible text on.
 
-![PScreenshot of the pdf in Master of Time and Space which details the when and where an election booth will be for the freedonia election](writeups/2025/australian-cyber-security-games/Week-4/Master-of-Time-and-Space/1.png)
+![PScreenshot of the pdf in Master of Time and Space which details the when and where an election booth will be for the freedonia election](1.png)
 
 The backend code for all of week 4 was the same, so we had that aswell.
 

@@ -90,7 +90,7 @@ So `preTGEBalance` is actually not the snapshot balance, but the total amount of
 So with this vulnerability, we have an exploit allowing us to get the flag.
 
 Opening up the instance, this is the interface after solving the challenge and submitting the solution (and clicking launch)
-![TCP1P-CTF-Blockchain-Infra instance](writeups/2026/c2c-qualifiers/tge/1.png))
+![TCP1P-CTF-Blockchain-Infra instance](1.png))
 This uses the [TCP1P-CTF-Blockchain-Infra](https://github.com/TCP1P/TCP1P-CTF-Blockchain-Infra).
 
 We can copy these values and save them as environment variables instead of copying them for every command.

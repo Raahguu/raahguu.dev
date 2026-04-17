@@ -94,10 +94,10 @@ This function takes in the signature and parses through python format, passing i
 
 So we can use some dunder methods and get the environment variables of the machine:
 So this:
-![](/writeups/2026/c2c-qualifiers/corp-mail/1.png)
+![](1.png)
 
 Becomes:
-![](/writeups/2026/c2c-qualifiers/corp-mail/2.png)
+![](2.png)
 
 I have replicated the photos in text, so the entire thing can be read
 ```python
@@ -110,13 +110,13 @@ Interestingly, the `FLAG` environment variable does not show up here, but the `J
 We can then forge a JWT token with the `user_id` of `4` as that is `mike`'s `user_id` (I found this through brute forcing `0`, `1`, `2`, and `3`).
 
 I like using [jwt.io](https://www.jwt.io/), but it is up to you how to forge your JWT token
-![](/writeups/2026/c2c-qualifiers/corp-mail/3.png)
+![](3.png)
 
 We can then save this value as the `token` cookie for the website and then go to `inbox
-![Image of the inbox revealing to emails called 'Q4 Budget Review', and 'Confidential: System Credentials'](/writeups/2026/c2c-qualifiers/corp-mail/4.png)
+![Image of the inbox revealing to emails called 'Q4 Budget Review', and 'Confidential: System Credentials'](4.png)
 
 Obviously the email to choose is the one called 'Confidential: System Credentials', and reading it reveals the flag:
-![](/writeups/2026/c2c-qualifiers/corp-mail/5.png)
+![](5.png)
 
 The flag is:
 ```flag

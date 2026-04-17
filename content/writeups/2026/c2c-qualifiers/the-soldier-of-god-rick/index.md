@@ -49,7 +49,7 @@ Next, I installed the ghidra `golang` extension and this allowed me to see that 
 - /app/main.go
 - /app/interactor/game_logic.go
 - /app/entity/game_state.go
-![](writeups/2026/c2c-qualifiers/the-soldier-of-god-rick/1.png)
+![](1.png)
 
 
 
@@ -125,6 +125,8 @@ as the `Secret Key` and then trying for SSTI just `{{ . }}` as the `Battle Cry![
 
 That ended up outputing the return of `rick/router.String`
 
+![](3.png)
+
 Now that SSTI is confirmed, time to defeat Rick.
 
 To defeat him we need to set his health to a negative number from `offer-runes`, but `offer-runes` only accepts internal requests, luckily `Scout` sends a Get request that would be internal, so we need to call scout and pass in the url for `offer-runes` with an `amount` that would cause an `int4` overflow,  which as it is `32` bits (`4` bytes = `32` bits) would be `2 147 483 648`
@@ -134,9 +136,10 @@ Battle Cry:
 {{ .Rick.Scout "http://localhost:8080/internal/offer-runes?amount=2147483648"}}
 ```
 
-The port number is `8080` becuase `main.main` reveals that internally the service runs on port `8080` even if externally the port is different.
+The port number is `8080` because `main.main` reveals that internally the service runs on port `8080` even if externally the port is different.
 
-This request then reveals somethin![](4.png)
+This request then reveals something 
+![](4.png)
 
 The request worked, his health overflowed and we got the flag
 ```flag

@@ -21,11 +21,11 @@ This hint in viewing the data in a different 'way' likely refers to in a differe
 
 Researching up, the two main ways to visually view audio files is through waveform and spectogram.
 Opening up `Audacity` with the file as a waveform shows:
+![Screenshot 2025-05-01 192152](1.png)
 
-![Screenshot 2025-05-01 192152](/writeups/2025/PecanPlus/Looking-Through-The-Sound/1.png)
 
 That didn't work so let's try the spectogram:
 
-![Screenshot 2025-05-01 192515](/writeups/2025/PecanPlus/Looking-Through-The-Sound/2.png)
+![Screenshot 2025-05-01 192515](2.png)
 
 And from this we have the flag, just need to type it out!

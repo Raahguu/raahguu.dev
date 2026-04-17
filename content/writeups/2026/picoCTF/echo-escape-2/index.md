@@ -65,7 +65,8 @@ It's a 32-bit binary, so the pointers are 4 bytes (32 bits), and quickly opening
 This shows that the `local_2c` variable, which is the name ghidra gives to the `buf` variable is at an offset of `0x2c`, or `44`. So to overwrite the return address, there must be 44 bytes of junk data before 4 bytes of memory address data.
 
 So lets find the memory address of the `win` function with `gdb`:
-```gdb
+
+```bash
 $ gdb vuln
 GNU gdb (Debian 17.1-3) 17.1
 Copyright (C) 2025 Free Software Foundation, Inc.

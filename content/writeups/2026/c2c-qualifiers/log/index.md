@@ -230,7 +230,7 @@ Status: Correct!
 ```
 
 And we get the flag:
-![Image showing the flag being displayed](/writeups/2026/c2c-qualifiers/log/1.png)
+![Image showing the flag being displayed](1.png)
 
 ```flag
 C2C{7H15_15_V3rY_345Y_30bb3fffa930}

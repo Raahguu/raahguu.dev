@@ -62,7 +62,7 @@ Under software, the exifdata has:
 `Bucking Cipher Encrypter`
 
 This is a major clue, that the cipher could very well be the 'Bucking Cipher'. Here is a key for the cipher to letters
-![image](/writeups/2025/PecanPlus/Sheet-Music-Cipher/1.png)
+![image](1.png)
 
 By matching the music to the characters you get:
 ```

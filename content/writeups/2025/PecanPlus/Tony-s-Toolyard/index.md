@@ -13,14 +13,14 @@ There is also a link
 
 ## Writeup
 
-The link leeds to a website that appears to be a toolyard online shop.
+The link leads to a website that appears to be a toolyard online shop.
 
-![image](/writeups/2025/PecanPlus/Tony-s-Toolyard/1.png)
+![image](1.png)
 
 searching in this field shows up a table of results:
 
-![image](/writeups/2025/PecanPlus/Tony-s-Toolyard/2.png)
-This is likely done through either an SQL databse, or storing the data in a json/csv file.
+![image](2.png)
+This is likely done through either an SQL database, or storing the data in a json/csv file.
 
 Checking the robots.txt file returns:
 
@@ -230,7 +230,7 @@ This difference means, that `search()` is susceptible to SQL injection.
 The server using `sqlite` as such let's create some mysql injections to use.
 First as a test `hammer' OR 1=1;--`:
 
-![image](/writeups/2025/PecanPlus/Tony-s-Toolyard/3.png)
+![image](3.png)
 
 As can be seen, this query returns everything, meaning that we just did a successful MySQL injection. Now onto making one to get us that password hash we were looking for.
 As can be seen in the `login()` function's SQL query, there is a table called `Users`, that has the fields `userID`, `username`, and `password`. So we want to write a query which grabs all the users and their passwords. As just appending another SQL query to the end of the previous one would cause the `search()` python code to throw an error and not return anything, due to `cursor.execute` only allowing one query to be run, we need a way to append the answer we want onto the search results without adding a whole other query.
@@ -240,7 +240,7 @@ So, the required SQL query for us is:
 To get this we need to enter `e' UNION SELECT username, password FROM Users;--` into the search bar.
 This returns:
 
-![image](/writeups/2025/PecanPlus/Tony-s-Toolyard/4.png)
+![image](4.png)
 
 ```
 Name: Admin - Price: $0000000000000000000000000000000000000000000000000000000000000000
@@ -263,19 +263,19 @@ As the `/secret/hints.txt` file hints that some users might have weak passwords,
 
 Signing in as `Jerry`, using that password at `/login`:
 
-![image](/writeups/2025/PecanPlus/Tony-s-Toolyard/5.png)
+![image](5.png)
 
 This seemed to work, as there is now a `My Profile` page:
 
-![image](/writeups/2025/PecanPlus/Tony-s-Toolyard/6.png)
+![image](6.png)
 
 Going here reveals a webpage with what seems to be text that Jerry put there himself:
 
-![image](/writeups/2025/PecanPlus/Tony-s-Toolyard/7.png)
+![image](7.png)
 
 That doesn't lead anywhere, so lets go back to the `/secret/hints.txt` file, it hints that after hashcracking, some cookie manipulation will need to be done. Checking the current cookies the user has after logging in reveal two, a `userID` cookie, and a `user` cookie:
 
-![image](/writeups/2025/PecanPlus/Tony-s-Toolyard/8.png)
+![image](8.png)
 
 Looking through the code for how these cookies are generated and what they are used for, shows that the `user` cookie is used to detect if the user has loggedin correctly in `is_logged_in()`. This function is only used in the `viewUser()` function which returns the user's `My Profile`. But `userID` appears to be the one that is actually used to register which user's profile wants to be viewed.
 This is strange, as the `user` cookie is a hash, that combines the user's password hash with a secret key meaning it can't be cracked, but `userID` is  just an integer storing the user's `userID`, it isn't encyrpted in anyway, meaning it can just be directly edited.
